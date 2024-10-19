@@ -16,4 +16,4 @@ jobs:
         python-version: '3.11.7'
 
     - name: Run Python Script
-      run: python ../../../test.py
+      run: python test.py
