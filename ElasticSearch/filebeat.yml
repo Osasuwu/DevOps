@@ -1,0 +1,9 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /Downloads/elastic
+
+output.elasticsearch:
+  hosts: ["http://localhost:9200"]
+  index: "logs"
